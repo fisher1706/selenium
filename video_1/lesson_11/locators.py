@@ -1,0 +1,5 @@
+VISIBLE_AFTER_BUTTON = ("xpath", "//button[@id='visibleAfter']")
+ENABLE_IN_SECONDS = ("xpath", "//button[@id='enableAfter']")
+REMOVE_BUTTON = ("xpath", "//button[text()='Remove']")
+ENABLE_BUTTON = ("xpath", "//button[text()='Enable']")
+TEXT_FIELD = ("xpath", "//input[@type='text']")
