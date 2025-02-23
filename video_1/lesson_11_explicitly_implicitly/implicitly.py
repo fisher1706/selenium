@@ -1,7 +1,7 @@
 import chromedriver_autoinstaller
 from selenium import webdriver
 
-from video_1.lesson_11.locators import VISIBLE_AFTER_BUTTON
+from video_1.lesson_11_explicitly_implicitly.locators import VISIBLE_AFTER_BUTTON
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--ignore-certificate-errors")

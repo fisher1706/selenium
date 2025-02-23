@@ -4,7 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from video_1.lesson_11.locators import VISIBLE_AFTER_BUTTON, ENABLE_IN_SECONDS, REMOVE_BUTTON, ENABLE_BUTTON, TEXT_FIELD
+from video_1.lesson_11_explicitly_implicitly.locators import (VISIBLE_AFTER_BUTTON, ENABLE_IN_SECONDS,
+                                                              REMOVE_BUTTON, ENABLE_BUTTON, TEXT_FIELD)
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--ignore-certificate-errors")

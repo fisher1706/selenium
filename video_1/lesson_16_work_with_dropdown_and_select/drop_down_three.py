@@ -21,5 +21,6 @@ DROPDOWN = Select(driver.find_element(*SELECT_LOCATOR))
 all_options = DROPDOWN.options
 
 for option in all_options:
+    print(option)
     time.sleep(2)
     DROPDOWN.select_by_index(all_options.index(option))
